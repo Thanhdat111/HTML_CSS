@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>	
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+	<title>html_css</title>
+</head>
+<body>
+	<div class="header">
+		<ul class="nav-top">
+			<li>đăng nhập</li>
+			<li>đăng ký</li>
+		</ul>
+	</div>
+	<div class="top1">
+		<img class="logo" src="./image/6-nguyen-tac-thiet-ke-logo-dep.jpg" alt="" height="50px" width="50px">
+		<h1 class="tieude">CARENEFIX HEALTH MANAGEMENT SYSTEM</h1>
+		<div>
+			<ul class="nav-top1">
+				<li>
+					<img src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/default.png" alt="">
+				</li>
+				<li>
+					<img src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/english.png" alt="">
+				</li>
+				<li>
+					<i class="fas fa-search"></i>
+				</li>
+			</ul>
+			<p class="hostline">hostline: +8428 3517 1317</p>
+		</div>
+	</div>
+	<!-- end top 1 -->
+	<div class="clearfix"></div>
+	<form class="formdangky" action="#">
+		<h2 class="textdangky">ĐĂNG KÝ</h2>
+		<table>
+			<p style="float: left;margin-left: 50px"><span>*</span> trường hợp bắt buộc</p>
+			<tr class="chu">
+		      <td><label for=""></label></td>
+              <td clas = "cntc">
+                  <input type="radio" name="canhan" id = " register_canhan" value="canhan" />
+                  <label for ="register_canhan" > Ca Nhan</label>  
+                  <input  type="radio" name ="tochuc" id = "register_tochuc" value="tochuc" />
+                  <label for ="register_tochuc"  style="margin-right: 30px"> To Chuc</label> 
+              </td>
+    		</tr>
+			<!-- <tr>
+				<td><label>Họ và tên</label><span>*</span></td>
+				<td><input type="text" ></td>
+            </tr> -->
+            <tr>
+               <td> <label>Ho Va Ten </label> <span> *</span> </td>
+            <td><input type="text" > </td>
+            </tr>
+			<tr>
+				<td><label>Số điện thoại</label><span>*</span></td>
+				<td><input type="text" ></td>
+			</tr>
+			<tr>
+				<td><label>Ngày sinh</label><span>*</span></td>
+				<td><input type="date" ></td>
+			</tr>
+			<tr>
+				<td><label>Địa chỉ</label></td>
+				<td><input type="text"></td>
+				<td class="tinhtp">
+					<div>
+						<input type="radio" name="city" id="tp_hcm" value="city"/>
+						<label for="tp_hcm">tp.HCM</label>						
+						<select name="city">
+                            <option value="quan1">Quan 1</option>
+                            </select>
+					</div>
+					<div>
+						<input type="radio" name="gender" checked="true" id="tinhthanhkhac" value="male"/>
+						<label for="tinhthanhkhac">Tỉnh thành khác</label>
+						<select name="tinhthanhkhac">
+                                <option value="quangnam">Quang Nam</option>
+                                <option value="danang">Da Nang</option>
+                                </select>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Giới tính</label></td>
+				<td>
+					<input type="radio" name="gender" checked="true" id="register_gendermale" value="male"/>
+			        <label style="margin-right: 20px;" for="register_gendermale">nam</label>
+			        <input type="radio" name="gender" id="register_genderfemale" value="female"/>
+			        <label for="register_genderfemale">nữ</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Email</label><span>*</span></td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td><label>Mât khẩu</label><span>*</span></td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td><label>Nhập lại mật khẩu</label><span>*</span></td>
+				<td><input type="text"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

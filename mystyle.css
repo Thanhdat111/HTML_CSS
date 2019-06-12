@@ -1,0 +1,169 @@
+ 
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+table {
+    margin-left: 310px !important;
+}
+select{
+    padding-right: 94px;
+    text-align: center;
+}
+p.hostline {
+    color: #FF9800;
+}
+input[type="number"] {
+    margin-left: 28px;
+}
+input#tp_hcm {
+    margin-top: 35px;
+}
+
+td.tinhtp {
+    padding-left: 20px;
+    line-height: 27px;
+}
+
+.tinhtp div label {
+    width: 110px;
+    height: 29px;
+    display: inline-block;
+}
+.tinh_thanhpho{
+
+}
+.tinhtp div {
+    padding-top: 7px;
+}
+
+input[type="date"] {
+    width: 288px;
+    height: 29px;
+}
+
+.cntc label {
+    padding-right: 49px;
+}
+
+tr {
+    line-height: 40px;
+}
+
+
+input[type="text"] {
+    width: 290px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid #9e9e9eba;
+    /* margin-left: 28px; */
+}
+
+.formdangky {
+    text-align: center;
+    block-size: 30px;
+    border-style: solid;
+    width: 1063px;
+    height: 867px;
+    margin-left: 96px;
+    padding-right: 96px;
+    margin-right: 40px;
+    border-color: red;
+    margin-top: 67px;
+    margin-bottom: 83px;
+}
+
+tr td {
+    padding-left: 20px;
+}
+
+form.formdangky * {
+    margin: 0 auto;
+}
+
+td {
+    text-align: left;
+}
+
+td.cntc {
+    text-align: left;
+}
+
+h2.textdangky {
+    margin: 41px 0;
+    color: red;
+}
+
+ul.nav-top1 li {
+    display: inline-block;
+    margin-left: 39px;
+    margin-top: 28px;
+    /* display: block; */
+    margin-right: -14px;
+}
+#register_tochuc{
+    color: red;
+    margin-left: 113px;
+}
+div.top1 {
+    padding-left: 100px;
+    background-color: #f1f9fb;
+}
+
+.top1 {
+    display: block;
+    height: 84px;
+}
+
+.top1 div {
+    float: left;
+}
+
+h1.tieude {
+    /* display: block; */
+    font-size: 20px;
+    float: left;
+    margin-top: 38px;
+    margin-right: 148px;
+    margin-left: 20px;
+    color: #3c4c61;
+}
+
+img.logo {
+    width: 100px;
+    margin-left: 152px;
+    float: left;
+    margin-top: 17px;
+}
+
+ul.nav-top {
+    /* float: right; */
+    text-align: right;
+    margin-right: 22px;
+}
+
+ul.nav-top li {
+    display: inline-block;
+    padding: 17px;
+     margin-right: 22px;
+}
+
+.header {
+    background-color: #364c7c;
+    color: white;
+    /* float: right; */
+    width: 100%;
+    /* float: right; */
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+span{
+	color: red;
+}
+
