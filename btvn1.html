@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>javascript</title>
+  <link rel="stylesheet" type="text/css" href="style_jsp1.css">
+  <script type="text/javascript" src="./javascript1.js" ></script>
+</head>
+<body>
+<div class="header">
+    <div id="logo">
+        <img src="./image/facebook_doi_font_chu_cho_logo_0.jpg" height="60px" >
+    </div>
+    <div id="new_account"> Tạo mới tài khoản</div>
+   
+</div>
+<div class="body1">
+        <form class="content" >
+            <table>
+           <h1>Đăng nhập Facebook</h1>
+            <input type="text" placeholder="Nhập email hoặc tài khoản" id="username" ><br><br>
+           <input type="password" placeholder="Nhập mật khẩu" id="password"><br><br>
+           <input type="button" onclick="checkLogin(username,password)" id="submit" value="Đăng Nhập">
+           <p>-----------------hoặc-----------------</p>
+        </table>
+        <button id="account">
+            Tạo tài khoản mới
+        </button>
+        <a href="#"> Quên mật khẩu</a>
+        </form>
+    </div>
+</body>
